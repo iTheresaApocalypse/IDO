@@ -9,7 +9,7 @@
       <th>Architecture</th>
       <th>Accuracy±std</th>
       <th>Time per Epoch</th>
-      <th rowspan="3">Description</th>
+      <th rowspan="3">Implementation Details</th>
     </tr>
   </thead>
   <tbody>
@@ -19,7 +19,12 @@
       <td>74.59±0.55</td>
       <td>717s</td>
       <td rowspan="2">
-        The results of DivideMix and IDO. The experiment is conducted under the setting with pre-trained ResNet50, with SGD, lr = 2e-3, weight_decay = 1e-3, momentum=0.9, batch_size=64. One epoch has 1000 iterations, and 100 epochs are trained. We set stage 1 for 2 epochs, stage 2 for 98 epochs. The experiments use an A100 80G GPU, running for 5 times.
+        The results of DivideMix and IDO. The experiment <br>
+        is conducted under the setting with pre-trained ResNet50, <br>
+        with SGD, lr = 2e-3, weight_decay = 1e-3, momentum=0.9, <br>
+        batch_size=64. One epoch has 1000 iterations, and 100 epochs <br>
+        are trained. We set stage 1 for 2 epochs, stage 2 for <br>
+        98 epochs. The experiments use an A100 80G GPU, running for 5 times.
       </td>
     </tr>
     <tr>
@@ -44,7 +49,7 @@
       <th>Sym. 60%</th>
       <th>Asym. 40%</th>
       <th>Inst. 40%</th>
-      <th rowspan="8">Description</th>
+      <th rowspan="8">Implementation Details</th>
     </tr>
   </thead>
   <tbody>
@@ -57,7 +62,12 @@
       <td>91.1%</td>
       <td>90.9%</td>
       <td rowspan="7">
-        The results of Standard, UNICON, ELR, DeFT, DivideMix, DISC and IDO on CIFAR-10 with five different noise levels. The experiment setting is followed CIFAR-100 setting in our paper.
+        The results of Standard, <br>
+        UNICON, ELR, DeFT, DivideMix, <br>
+        DISC and IDO on CIFAR-10 <br>
+        with five different noise levels. <br>
+        The experiment setting is followed <br>
+        CIFAR-100 setting in our paper.
       </td>
     </tr>
     <tr>

@@ -9,7 +9,7 @@
       <th colspan="3">0.2</th>
       <th colspan="3">0.5</th>
       <th colspan="3">0.8</th>
-      <th rowspan="3">Description</th>
+      <th rowspan="3">Implementation Details</th>
     </tr>
   </thead>
   <tbody>
@@ -65,7 +65,7 @@
       <th colspan="3">0.2</th>
       <th colspan="3">0.5</th>
       <th colspan="3">0.8</th>
-      <th rowspan="3">Description</th>
+      <th rowspan="3">Implementation Details</th>
     </tr>
   </thead>
   <tbody>
@@ -120,7 +120,7 @@
       <th colspan="3">Sym. 60%</th>
       <th colspan="3">Asym. 40%</th>
       <th colspan="3">Inst. 40%</th>
-      <th rowspan="3">Description</th>
+      <th rowspan="3">Implementation Details</th>
     </tr>
   </thead>
   <tbody>
@@ -136,7 +136,9 @@
       <td>60</td>
       <td>100</td>
       <td rowspan="3">
-        The AUC values of Loss and Wrong Event. The experiment is conducted with ResNet18 on CIFAR10 under Sym. 60%, Asym. 40%, Inst. 40%. <br> We use the metric AUC, which comprehensively considers accuracy, precision, and recall, to measure the selecting ability of selective metrics at different thresholds. The larger the AUC, the stronger the classification ability of the metric. <br> It is conducted with AdamW, lr = 1e-3, weight_decay = 1e-5, batch_size=128.
+        The AUC values of Loss and Wrong Event. The experiment is conducted 
+        with ResNet18 on CIFAR10 under Sym. 60%, Asym. 40%, Inst. 40%.
+        It is conducted with AdamW, lr = 1e-3, weight_decay = 1e-5, batch_size=128.
       </td>
     </tr>
     <tr>
@@ -171,7 +173,7 @@
 
 <div>			
     <center>	
-    <img src="Reviewer-5inD/e360fc7276717ab61b489d57cc5eada.png"
+    <img src="Reviewer-5inD/96d63d41b0577d4de3c5d3c10f0ee63.png"
          alt=""
          style=""/>
     <br>		
@@ -187,7 +189,7 @@
       <th>Accuracy(%)</th>
       <th>Per Epoch Time(s)</th>
       <th>Per Epoch BMM Time(s)</th>
-      <th rowspan="2">Description</th>
+      <th rowspan="2">Implementation Details</th>
     </tr>
   </thead>
   <tbody>
@@ -197,7 +199,10 @@
       <td>121</td>
       <td>4.6</td>
       <td rowspan="2">
-        The results of IDO(BMM). The experiment is conducted under the setting with ResNet50 on CIFAR-100 with Inst. 40% noise, with AdamW, lr = 1e-3, weight_decay = 1e-5, batch_size=64. <br>The experiment was performed on a single A100 80GB, repeated 5 times.
+        The results of IDO(BMM). The experiment is conducted <br>
+        under the setting with ResNet50 on CIFAR-100 with Inst. 40% noise, <br>
+        with AdamW, lr = 1e-3, weight_decay = 1e-5, batch_size=64. <br>
+        The experiment was performed on a single A100 80GB, repeated 5 times.
       </td>
     </tr>
   </tbody>
@@ -213,7 +218,7 @@
       <th>Accuracy(%)</th>
       <th>Per Epoch Time(s)</th>
       <th>Per Epoch Fitting Time(s)</th>
-      <th rowspan="4">Description</th>
+      <th rowspan="4">Implementation Details</th>
     </tr>
   </thead>
   <tbody>
@@ -223,7 +228,10 @@
       <td>399</td>
       <td>14.7</td>
       <td rowspan="4">
-        The results of M-Correction(BMM), DivideMix(GMM), and IDO(BMM). The experiment is conducted under the setting with ResNet50 on CIFAR-100 with Inst. 40% noise, using AdamW, lr = 1e-3, weight_decay = 1e-5, and batch_size=64. <br>The experiment was performed on a single A100 80GB, repeated 5 times.
+        The results of M-Correction(BMM), DivideMix(GMM), and IDO(BMM). <br>
+        The experiment is conducted under the setting with ResNet50 <br>
+        on CIFAR-100 with Inst. 40% noise, using AdamW, lr = 1e-3, weight_decay = 1e-5, and batch_size=64. <br>
+        The experiment was performed on a single A100 80GB, repeated 5 times.
       </td>
     </tr>
     <tr>

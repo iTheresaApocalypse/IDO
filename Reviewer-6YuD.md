@@ -9,7 +9,7 @@
       <th colspan="3">Sym. 60%</th>
       <th colspan="3">Asym. 40%</th>
       <th colspan="3">Inst. 40%</th>
-      <th rowspan="3">Description</th>
+      <th rowspan="3">Implementation Details</th>
     </tr>
   </thead>
   <tbody>
@@ -25,7 +25,8 @@
       <td>60</td>
       <td>100</td>
       <td rowspan="3">
-        The AUC values of Loss and Wrong Event. The experiment is conducted with ResNet18 on CIFAR10 under Sym. 60%, Asym. 40%, Inst. 40%. <br> We use the metric AUC, which comprehensively considers accuracy, precision, and recall, to measure the selecting ability of selective metrics at different thresholds. The larger the AUC, the stronger the classification ability of the metric. <br> It is conducted with AdamW, lr = 1e-3, weight_decay = 1e-5, batch_size=128.
+        The AUC values of Loss and Wrong Event. The experiment is conducted with ResNet18 on CIFAR10 under Sym. 60%, Asym. 40%, Inst. 40%. <br> 
+        It is conducted with AdamW, lr = 1e-3, weight_decay = 1e-5, batch_size=128.
       </td>
     </tr>
     <tr>
@@ -64,7 +65,7 @@
       <th colspan="3">Sym. 60%</th>
       <th colspan="3">Asym. 40%</th>
       <th colspan="3">Inst. 40%</th>
-      <th rowspan="4">Description</th>
+      <th rowspan="4">Implementation Details</th>
     </tr>
   </thead>
   <tbody>
@@ -80,7 +81,8 @@
       <td>60</td>
       <td>100</td>
       <td rowspan="4">
-        Table 2. The AUC values of Loss and Wrong Event. The experiment is conducted with ResNet18 on CIFAR100 under Sym. 60%, Asym. 40%, Inst. 40%. We use the metric AUC, which comprehensively considers accuracy, precision, and recall, to measure the selecting ability of selective metrics at different thresholds. The larger the AUC, the stronger the classification ability of the metric. It is conducted with AdamW, lr = 1e-3, weight_decay = 1e-5, batch_size=128.
+        The AUC values of Loss and Wrong Event. The experiment is conducted with ResNet18 on CIFAR100 under Sym. 60%, Asym. 40%, Inst. 40%. <br> 
+        It is conducted with AdamW, lr = 1e-3, weight_decay = 1e-5, batch_size=128.
       </td>
     </tr>
     <tr>
@@ -115,7 +117,7 @@
 
 <div>			
     <center>	
-    <img src="Reviewer-6YuD/e360fc7276717ab61b489d57cc5eada.png"
+    <img src="Reviewer-6YuD/8b2e9a080f1f390e889df93f325fcd9.png"
          alt=""
          style=""/>
     <br>		
