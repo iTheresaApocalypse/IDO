@@ -51,8 +51,8 @@
       <td>0.63</td>
       <td>0.59</td>
       <td>0.84</td>
-      <td>0.77</td>
-      <td>0.68</td>
+      <td>0.75</td>
+      <td>0.67</td>
     </tr>
     <tr>
       <td>Wrong Event</td>
@@ -62,7 +62,7 @@
       <td>0.76</td>
       <td>0.80</td>
       <td>0.79</td>
-      <td>0.92</td>
+      <td>0.93</td>
       <td>0.95</td>
       <td>0.94</td>
     </tr>
