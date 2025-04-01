@@ -117,7 +117,7 @@
 
 <div>			
     <center>	
-    <img src="Reviewer-6YuD/8b2e9a080f1f390e889df93f325fcd9.png"
+    <img src="Reviewer-6YuD//scratch-roc.png"
          alt=""
          style=""/>
     <br>		
