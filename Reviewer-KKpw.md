@@ -39,7 +39,7 @@
       <td rowspan="4">
         The AUC values of Loss and Wrong Event. <br>
         The experiment is conducted under the setting with pre-trained ResNet50 on CIFAR-100 under three noise settings. <br> 
-        The experiment is conducted with SGD, lr = 1e-2, weight_decay = 5e-4, batch_size=128. 
+        The experiment is conducted with AdamW, lr = 1e-3, weight_decay = 1e-5, batch_size=64.
       </td>
     </tr>
     <tr>
