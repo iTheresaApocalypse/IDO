@@ -194,8 +194,8 @@
     <tr>
       <td>Fixed $$\epsilon(\cdot)$$ = 1</td>
       <td>80.3</td>
-      <td>76.8</td>
-      <td>82.8</td>
+      <td>75.8</td>
+      <td>81.8</td>
     </tr>
     <tr>
       <td>Dynamic $$\epsilon(\cdot)$$</td>
