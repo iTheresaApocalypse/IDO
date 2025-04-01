@@ -4,7 +4,7 @@
 
 <div>			
     <center>	
-    <img src="Reviewer-KKpw/63bc8e97ba56d0e734a5479de0f5c7c.png"
+    <img src="Reviewer-KKpw/var.png"
          alt=""
          style=""/>
     <br>		
@@ -74,7 +74,7 @@
 
 <div>			
     <center>	
-    <img src="Reviewer-KKpw/57836aaefc28b8d13e72b53fdc269ec.png"
+    <img src="Reviewer-KKpw/pretrain-roc.png"
          alt=""
          style=""/>
     <br>		
