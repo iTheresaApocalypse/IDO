@@ -170,7 +170,7 @@
 <table border="1" cellspacing="0" cellpadding="5">
   <thead>
     <tr>
-      <th>$$\epsilon(\cdot)$$</th>
+      <th>$\epsilon(\cdot)$</th>
       <th>Sym. 60%</th>
       <th>Asym. 40%</th>
       <th>Inst. 40%</th>
@@ -179,12 +179,12 @@
   </thead>
   <tbody>
     <tr>
-      <td>Without $$\epsilon(\cdot)$$ = 0</td>
+      <td>Without $\epsilon(\cdot)$ = 0</td>
       <td>78.2</td>
       <td>70.4</td>
       <td>77.3</td>
       <td rowspan="3">
-        The results of weighting term $$\epsilon(\cdot)$$ for loss $$\mathcal{L_{SIM}}$$. <br> 
+        The results of weighting term $\epsilon(\cdot)$ for loss $\mathcal{L_{SIM}}$. <br> 
           The experiment is conducted under the setting <br>
           with Pretrained ResNet-50 on CIFAR-100 with <br>
           Sym. 60%, Asym. 40%, Inst. 40% noise, with <br>
@@ -192,13 +192,13 @@
       </td>
     </tr>
     <tr>
-      <td>Fixed $$\epsilon(\cdot)$$ = 1</td>
+      <td>Fixed $\epsilon(\cdot)$ = 1</td>
       <td>80.3</td>
       <td>75.8</td>
       <td>81.8</td>
     </tr>
     <tr>
-      <td>Dynamic $$\epsilon(\cdot)$$</td>
+      <td>Dynamic $\epsilon(\cdot)$</td>
       <td><b>81.1</b></td>
       <td><b>77.5</b></td>
       <td><b>83.5</b></td>
