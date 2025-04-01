@@ -96,9 +96,9 @@
   <tbody>
     <tr>
       <td>Single Loss + BMM</td>
-      <td>75.3</td>
-      <td>69.7</td>
-      <td>68.4</td>
+      <td>77.1</td>
+      <td>70.9</td>
+      <td>72.6</td>
       <td rowspan="4">
         The results of single loss, accumulated loss and wrong event <br>
         with GMM and BMM. The experiment is conducted under the <br>
@@ -159,7 +159,7 @@
       <td>Base Model</td>
       <td><b>81.3</b></td>
       <td><b>77.6</b></td>
-      <td><b>83.8</b></td>
+      <td><b>83.6</b></td>
     </tr>
   </tbody>
 </table>
@@ -201,7 +201,7 @@
       <td>Dynamic $$\epsilon(\cdot)$$</td>
       <td><b>81.1</b></td>
       <td><b>77.5</b></td>
-      <td><b>83.7</b></td>
+      <td><b>83.5</b></td>
     </tr>
   </tbody>
 </table>
@@ -222,9 +222,9 @@
   <tbody>
     <tr>
       <td>Loss + Total BMM</td>
-      <td>79.9</td>
-      <td>69.9</td>
-      <td>74.6</td>
+      <td>76.7</td>
+      <td>68.4</td>
+      <td>70.2</td>
       <td rowspan="4">
         The results of loss and wrong event with Total Class BMM. <br>
         The experiment is conducted under the setting with Pretrained <br>
@@ -235,9 +235,9 @@
     </tr>
     <tr>
       <td>Loss + Class BMM</td>
-      <td>80.8</td>
-      <td>76.0</td>
-      <td>79.8</td>
+      <td>77.1</td>
+      <td>70.9</td>
+      <td>72.6</td>
     </tr>
     <tr>
       <td>Wrong event + Total BMM</td>
@@ -249,7 +249,7 @@
       <td>Wrong event + Class BMM</td>
       <td><b>81.2</b></td>
       <td><b>78.3</b></td>
-      <td><b>83.2</b></td>
+      <td><b>83.3</b></td>
     </tr>
   </tbody>
 </table>
