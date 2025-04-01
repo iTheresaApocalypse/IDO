@@ -136,9 +136,8 @@
       <td>60</td>
       <td>100</td>
       <td rowspan="3">
-        The AUC values of Loss and Wrong Event. The experiment is conducted 
-        with ResNet18 on CIFAR10 under Sym. 60%, Asym. 40%, Inst. 40%.
-        It is conducted with AdamW, lr = 1e-3, weight_decay = 1e-5, batch_size=128.
+        The AUC values of Loss and Wrong Event. The experiment is conducted with ResNet18 on CIFAR10 under Sym. 60%, Asym. 40%, Inst. 40%.
+        It is conducted with SGD, lr = 1e-2, weight_decay = 5e-4, batch_size=128.
       </td>
     </tr>
     <tr>
@@ -199,9 +198,8 @@
       <td>121</td>
       <td>4.6</td>
       <td rowspan="2">
-        The results of IDO(BMM). The experiment is conducted <br>
-        under the setting with ResNet50 on CIFAR-100 with Inst. 40% noise, <br>
-        with AdamW, lr = 1e-3, weight_decay = 1e-5, batch_size=64. <br>
+        The results of IDO(BMM). The experiment is conducted under the setting with ResNet50 on CIFAR-100 with Inst. 40% noise,
+        with AdamW, lr = 1e-3, weight_decay = 1e-5, batch_size=64. 
         The experiment was performed on a single A100 80GB, repeated 5 times.
       </td>
     </tr>
@@ -229,8 +227,7 @@
       <td>14.7</td>
       <td rowspan="4">
         The results of M-Correction(BMM), DivideMix(GMM), and IDO(BMM). <br>
-        The experiment is conducted under the setting with ResNet50 <br>
-        on CIFAR-100 with Inst. 40% noise, using AdamW, lr = 1e-3, weight_decay = 1e-5, and batch_size=64. <br>
+        The experiment is conducted under the setting with ResNet50 on CIFAR-100 with Inst. 40% noise, using AdamW, lr = 1e-3, weight_decay = 1e-5, and batch_size=64. <br>
         The experiment was performed on a single A100 80GB, repeated 5 times.
       </td>
     </tr>
