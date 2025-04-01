@@ -172,7 +172,7 @@
 
 <div>			
     <center>	
-    <img src="Reviewer-5inD/ebbd3aa7947a5e810aa4e9c1174d6cc.png"
+    <img src="Reviewer-5inD/scratch-roc.png"
          alt=""
          style=""/>
     <br>		
