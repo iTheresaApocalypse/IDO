@@ -5,108 +5,207 @@
 <table border="1" cellspacing="0" cellpadding="5">
   <thead>
     <tr>
-      <th rowspan="2">Threshold</th>
+      <th colspan="2">Threshold</th>
       <th colspan="3">0.2</th>
       <th colspan="3">0.5</th>
       <th colspan="3">0.8</th>
-      <th rowspan="3">Implementation Details</th>
+      <th rowspan="10">Implementation Details</th>
+    </tr>
+    <tr>
+      <td colspan="2">Epoch</td>
+      <td>5</td>
+      <td>20</td>
+      <td>30</td>
+      <td>5</td>
+      <td>20</td>
+      <td>30</td>
+      <td>5</td>
+      <td>20</td>
+      <td>30</td>
     </tr>
   </thead>
   <tbody>
+    <!-- Loss -->
     <tr>
-      <td>Epoch</td>
-      <td>5</td>
-      <td>20</td>
-      <td>30</td>
-      <td>5</td>
-      <td>20</td>
-      <td>30</td>
-      <td>5</td>
-      <td>20</td>
-      <td>30</td>
-      <td rowspan="3">
-        The precision, recall, F-score of Loss and Wrong Event. Each cell displays the F-score as the first value, precision as the second value, and recall as the third value. <br>The experiment is conducted with ResNet18 on CIFAR10 under Inst. 40%. We set three thresholds to calculate F-score. It is conducted with SGD, lr = 1e-2, weight_decay = 5e-4, batch_size=128.
-      </td>
+      <td rowspan="3">Loss</td>
+      <td>F-score</td>
+      <td>0.49</td>
+      <td>0.38</td>
+      <td>0.29</td>
+      <td>0.34</td>
+      <td>0.29</td>
+      <td>0.20</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td rowspan="6">The precision, recall, F-score of Loss and Wrong Event.<br>The experiment is conducted with ResNet18 on CIFAR10 under Inst. 40%. <br>We set three thresholds to calculate F-score. It is conducted with SGD, lr = 1e-2, weight_decay = 5e-4, batch_size=128.</td>
     </tr>
     <tr>
-      <td>Loss</td>
-      <td>0.49<br>0.62 0.41</td>
-      <td>0.38<br>0.76 0.25</td>
-      <td>0.29<br>0.79 0.18</td>
-      <td>0.34<br>0.71 0.23</td>
-      <td>0.29<br>0.79 0.18</td>
-      <td>0.20<br>0.75 0.11</td>
-      <td>0.00<br>0.92 0.00</td>
-      <td>0.00<br>0.90 0.00</td>
-      <td>0.00<br>0.60 0.00</td>
+      <td>Precision</td>
+      <td>0.62</td>
+      <td>0.76</td>
+      <td>0.79</td>
+      <td>0.71</td>
+      <td>0.79</td>
+      <td>0.75</td>
+      <td>0.92</td>
+      <td>0.90</td>
+      <td>0.60</td>
     </tr>
     <tr>
-      <td>Wrong Event</td>
-      <td>0.60<br>0.43 0.99</td>
-      <td>0.67<br>0.51 0.99</td>
-      <td>0.70<br>0.54 0.99</td>
-      <td>0.63<br>0.46 0.99</td>
-      <td>0.70<br>0.54 0.99</td>
-      <td>0.72<br>0.56 0.99</td>
-      <td>0.70<br>0.63 0.77</td>
-      <td>0.79<br>0.88 0.71</td>
-      <td>0.76<br>0.93 0.65</td>
+      <td>Recall</td>
+      <td>0.41</td>
+      <td>0.25</td>
+      <td>0.18</td>
+      <td>0.23</td>
+      <td>0.18</td>
+      <td>0.11</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+    </tr>
+    <!-- Wrong Event -->
+    <tr>
+      <td rowspan="3">Wrong Event</td>
+      <td>F-score</td>
+      <td>0.60</td>
+      <td>0.67</td>
+      <td>0.70</td>
+      <td>0.63</td>
+      <td>0.70</td>
+      <td>0.72</td>
+      <td>0.70</td>
+      <td>0.79</td>
+      <td>0.76</td>
+    </tr>
+    <tr>
+      <td>Precision</td>
+      <td>0.43</td>
+      <td>0.51</td>
+      <td>0.54</td>
+      <td>0.46</td>
+      <td>0.54</td>
+      <td>0.56</td>
+      <td>0.63</td>
+      <td>0.88</td>
+      <td>0.93</td>
+    </tr>
+    <tr>
+      <td>Recall</td>
+      <td>0.99</td>
+      <td>0.99</td>
+      <td>0.99</td>
+      <td>0.99</td>
+      <td>0.99</td>
+      <td>0.99</td>
+      <td>0.77</td>
+      <td>0.71</td>
+      <td>0.65</td>
     </tr>
   </tbody>
 </table>
-
 
 ### Table 2
 
 <table border="1" cellspacing="0" cellpadding="5">
   <thead>
     <tr>
-      <th rowspan="2">Threshold</th>
+      <th colspan="2">Threshold</th>
       <th colspan="3">0.2</th>
       <th colspan="3">0.5</th>
       <th colspan="3">0.8</th>
-      <th rowspan="3">Implementation Details</th>
+      <th rowspan="10">Implementation Details</th>
+    </tr>
+    <tr>
+      <td colspan="2">Epoch</td>
+      <td>10</td>
+      <td>30</td>
+      <td>60</td>
+      <td>10</td>
+      <td>30</td>
+      <td>60</td>
+      <td>10</td>
+      <td>30</td>
+      <td>60</td>
     </tr>
   </thead>
   <tbody>
+    <!-- Loss -->
     <tr>
-      <td>Epoch</td>
-      <td>10</td>
-      <td>30</td>
-      <td>60</td>
-      <td>10</td>
-      <td>30</td>
-      <td>60</td>
-      <td>10</td>
-      <td>30</td>
-      <td>60</td>
-      <td rowspan="3">
-        The precision, recall, F-score of Loss and Wrong Event. Each cell displays the F-score as the first value, precision as the second value, and recall as the third value. <br> The experiment is conducted with ResNet18 on CIFAR10 under Sym. 60%. We set three thresholds to calculate F-score. It is conducted with SGD, lr = 1e-2, weight_decay = 5e-4, batch_size=128.
-      </td>
+      <td rowspan="3">Loss</td>
+      <td>F-score</td>
+      <td>0.77</td>
+      <td>0.84</td>
+      <td>0.56</td>
+      <td>0.87</td>
+      <td>0.61</td>
+      <td>0.04</td>
+      <td>0.05</td>
+      <td>0.01</td>
+      <td>0.00</td>
+      <td rowspan="6">The precision, recall, F-score of Loss and Wrong Event. <br> The experiment is conducted with ResNet18 on CIFAR10 under Sym. 60%. <br>We set three thresholds to calculate F-score. It is conducted with SGD, lr = 1e-2, weight_decay = 5e-4, batch_size=128.</td>
     </tr>
     <tr>
-      <td>Loss</td>
-      <td>0.77<br>0.63 1.00</td>
-      <td>0.84<br>0.75 0.96</td>
-      <td>0.56<br>0.41 0.87</td>
-      <td>0.87<br>0.90 0.84</td>
-      <td>0.61<br>0.97 0.45</td>
-      <td>0.04<br>0.94 0.02</td>
-      <td>0.05<br>1.00 0.02</td>
-      <td>0.01<br>1.00 0.00</td>
-      <td>0.00<br>1.00 0.00</td>
+      <td>Precision</td>
+      <td>0.63</td>
+      <td>0.75</td>
+      <td>0.41</td>
+      <td>0.90</td>
+      <td>0.97</td>
+      <td>0.94</td>
+      <td>1.00</td>
+      <td>1.00</td>
+      <td>1.00</td>
     </tr>
     <tr>
-      <td>Wrong Event</td>
-      <td>0.76<br>0.62 1.00</td>
-      <td>0.85<br>0.76 0.97</td>
-      <td>0.84<br>0.74 0.99</td>
-      <td>0.85<br>0.73 0.99</td>
-      <td>0.90<br>0.83 0.98</td>
-      <td>0.92<br>0.89 0.96</td>
-      <td>0.87<br>0.83 0.93</td>
-      <td>0.92<br>0.93 0.92</td>
-      <td>0.88<br>0.97 0.81</td>
+      <td>Recall</td>
+      <td>1.00</td>
+      <td>0.96</td>
+      <td>0.87</td>
+      <td>0.84</td>
+      <td>0.45</td>
+      <td>0.02</td>
+      <td>0.02</td>
+      <td>0.00</td>
+      <td>0.00</td>
+    </tr>
+    <!-- Wrong Event -->
+    <tr>
+      <td rowspan="3">Wrong Event</td>
+      <td>F-score</td>
+      <td>0.76</td>
+      <td>0.85</td>
+      <td>0.84</td>
+      <td>0.85</td>
+      <td>0.90</td>
+      <td>0.92</td>
+      <td>0.87</td>
+      <td>0.92</td>
+      <td>0.88</td>
+    </tr>
+    <tr>
+      <td>Precision</td>
+      <td>0.62</td>
+      <td>0.76</td>
+      <td>0.74</td>
+      <td>0.73</td>
+      <td>0.83</td>
+      <td>0.89</td>
+      <td>0.83</td>
+      <td>0.93</td>
+      <td>0.97</td>
+    </tr>
+    <tr>
+      <td>Recall</td>
+      <td>1.00</td>
+      <td>0.97</td>
+      <td>0.99</td>
+      <td>0.99</td>
+      <td>0.98</td>
+      <td>0.96</td>
+      <td>0.93</td>
+      <td>0.92</td>
+      <td>0.81</td>
     </tr>
   </tbody>
 </table>
