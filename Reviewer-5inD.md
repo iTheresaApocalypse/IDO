@@ -68,15 +68,15 @@
     <tr>
       <td rowspan="3">Wrong Event</td>
       <td>F-score</td>
-      <td>0.60</td>
-      <td>0.67</td>
-      <td>0.70</td>
-      <td>0.63</td>
-      <td>0.70</td>
-      <td>0.72</td>
-      <td>0.70</td>
-      <td>0.79</td>
-      <td>0.76</td>
+      <td><b>0.60</b></td>
+      <td><b>0.67</b></td>
+      <td><b>0.70</b></td>
+      <td><b>0.63</b></td>
+      <td><b>0.70</b></td>
+      <td><b>0.72</b></td>
+      <td><b>0.70</b></td>
+      <td><b>0.79</b></td>
+      <td><b>0.76</b></td>
     </tr>
     <tr>
       <td>Precision</td>
@@ -134,10 +134,10 @@
     <tr>
       <td rowspan="3">Loss</td>
       <td>F-score</td>
-      <td>0.77</td>
+      <td><b>0.77</b></td>
       <td>0.84</td>
       <td>0.56</td>
-      <td>0.87</td>
+      <td>0.83</td>
       <td>0.61</td>
       <td>0.04</td>
       <td>0.05</td>
@@ -150,7 +150,7 @@
       <td>0.63</td>
       <td>0.75</td>
       <td>0.41</td>
-      <td>0.90</td>
+      <td>0.81</td>
       <td>0.97</td>
       <td>0.94</td>
       <td>1.00</td>
@@ -162,7 +162,7 @@
       <td>1.00</td>
       <td>0.96</td>
       <td>0.87</td>
-      <td>0.84</td>
+      <td>0.85</td>
       <td>0.45</td>
       <td>0.02</td>
       <td>0.02</td>
@@ -174,14 +174,14 @@
       <td rowspan="3">Wrong Event</td>
       <td>F-score</td>
       <td>0.76</td>
-      <td>0.85</td>
-      <td>0.84</td>
-      <td>0.85</td>
-      <td>0.90</td>
-      <td>0.92</td>
-      <td>0.87</td>
-      <td>0.92</td>
-      <td>0.88</td>
+      <td><b>0.85</b></td>
+      <td><b>0.84</b></td>
+      <td><b>0.85</b></td>
+      <td><b>0.90</b></td>
+      <td><b>0.92</b></td>
+      <td><b>0.87</b></td>
+      <td><b>0.92</b></td>
+      <td><b>0.88</b></td>
     </tr>
     <tr>
       <td>Precision</td>
@@ -253,15 +253,15 @@
     </tr>
     <tr>
       <td>Wrong Event</td>
-      <td>0.96</td>
-      <td>0.98</td>
-      <td>0.97</td>
-      <td>0.94</td>
-      <td>0.94</td>
-      <td>0.92</td>
-      <td>0.94</td>
-      <td>0.95</td>
-      <td>0.94</td>
+      <td><b>0.96</b></td>
+      <td><b>0.98</b></td>
+      <td><b>0.97</b></td>
+      <td><b>0.94</b></td>
+      <td><b>0.94</b></td>
+      <td><b>0.92</b></td>
+      <td><b>0.94</b></td>
+      <td><b>0.95</b></td>
+      <td><b>0.94</b></td>
     </tr>
   </tbody>
 </table>
@@ -338,9 +338,9 @@
     </tr>
     <tr>
       <td>IDO(BMM)</td>
-      <td>83.6</td>
-      <td>121</td>
-      <td>4.6</td>
+      <td><b>83.6</b></td>
+      <td><b>121</b></td>
+      <td><b>4.6</b></td>
     </tr>
   </tbody>
 </table>
