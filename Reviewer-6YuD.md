@@ -43,15 +43,15 @@
     </tr>
     <tr>
       <td>Wrong Event</td>
-      <td>0.96</td>
-      <td>0.98</td>
-      <td>0.97</td>
-      <td>0.94</td>
-      <td>0.94</td>
-      <td>0.92</td>
-      <td>0.94</td>
-      <td>0.95</td>
-      <td>0.94</td>
+      <td><b>0.96</b></td>
+      <td><b>0.98</b></td>
+      <td><b>0.97</b></td>
+      <td><b>0.94</b></td>
+      <td><b>0.94</b></td>
+      <td><b>0.92</b></td>
+      <td><b>0.94</b></td>
+      <td><b>0.95</b></td>
+      <td><b>0.94</b></td>
     </tr>
   </tbody>
 </table>
@@ -99,15 +99,15 @@
     </tr>
     <tr>
       <td>Wrong Event</td>
-      <td>0.87</td>
-      <td>0.92</td>
-      <td>0.91</td>
-      <td>0.72</td>
-      <td>0.75</td>
-      <td>0.74</td>
-      <td>0.86</td>
-      <td>0.88</td>
-      <td>0.88</td>
+      <td><b>0.87</b></td>
+      <td><b>0.92</b></td>
+      <td><b>0.91</b></td>
+      <td><b>0.72</b></td>
+      <td><b>0.75</b></td>
+      <td><b>0.74</b></td>
+      <td><b>0.86</b></td>
+      <td><b>0.88</b></td>
+      <td><b>0.88</b></td>
     </tr>
   </tbody>
 </table>
