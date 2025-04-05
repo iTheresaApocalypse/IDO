@@ -56,15 +56,15 @@
     </tr>
     <tr>
       <td>Wrong Event</td>
-      <td>0.97</td>
-      <td>0.98</td>
-      <td>0.98</td>
-      <td>0.76</td>
-      <td>0.80</td>
-      <td>0.79</td>
-      <td>0.93</td>
-      <td>0.95</td>
-      <td>0.94</td>
+      <td><b>0.97</b></td>
+      <td><b>0.98</b></td>
+      <td><b>0.98</b></td>
+      <td><b>0.76</b></td>
+      <td><b>0.80</b></td>
+      <td><b>0.79</b></td>
+      <td><b>0.93</b></td>
+      <td><b>0.95</b></td>
+      <td><b>0.94</b></td>
     </tr>
   </tbody>
 </table>
