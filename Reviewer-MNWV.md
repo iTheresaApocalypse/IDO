@@ -122,3 +122,86 @@
   </tbody>
 </table>
 
+### Table 3
+
+<table border="1" cellspacing="0" cellpadding="5">
+  <thead>
+    <tr>
+      <th>Model</th>
+      <th>Method</th>
+      <th>Clothing1M</th>
+      <th>Food101N</th>
+      <th>Webvision</th>
+      <th rowspan="9">Implementation Details</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Scratch ResNet 50</td>
+      <td>Standard</td>
+      <td>64.3%</td>
+      <td>74.8%</td>
+      <td>70.7%</td>
+      <td rowspan="8">
+        The results of pre-trained and randomly initialized <br>
+        models. <br>
+        Train for 100 epochs using SGD with a learning rate <br>
+        of 0.01. The learning rate is reduced by a factor of <br>
+        10 at epochs 40 and 80, with a weight decay of 5e-4. <br>
+        For scratch models, stage 1 lasts 30 epochs <br>
+        and stage 2 lasts 70 epochs; <br>
+        For pre-trained models, stage 1 lasts 5 epochs <br>
+        and stage 2 lasts 95 epochs.
+      </td>
+    </tr>
+    <tr>
+      <td>Scratch ResNet 50</td>
+      <td>GJS</td>
+      <td>71.6%</td>
+      <td>82.6%</td>
+      <td>79.3%</td>
+    </tr>
+    <tr>
+      <td>Scratch ResNet 50</td>
+      <td>IDO</td>
+      <td><b>72.7%</b></td>
+      <td><b>85.4%</b></td>
+      <td><b>79.6%</b></td>
+    </tr>
+    <tr>
+      <td>Pre-trained ResNet 50</td>
+      <td>Standard</td>
+      <td>68.3%</td>
+      <td>81.6%</td>
+      <td>77.8%</td>
+    </tr>
+    <tr>
+      <td>Pre-trained ResNet 50</td>
+      <td>PLC</td>
+      <td>74.0%</td>
+      <td>83.4%</td>
+      <td>80.8%</td>
+    </tr>
+    <tr>
+      <td>Pre-trained ResNet 50</td>
+      <td>ELR</td>
+      <td>74.4%</td>
+      <td>84.2%</td>
+      <td>80.5%</td>
+    </tr>
+    <tr>
+      <td>Pre-trained ResNet 50</td>
+      <td>DISC</td>
+      <td>73.7%</td>
+      <td>87.9%</td>
+      <td>81.5%</td>
+    </tr>
+    <tr>
+      <td>Pre-trained ResNet 50</td>
+      <td>IDO</td>
+      <td><b>74.8%</b></td>
+      <td><b>88.2%</b></td>
+      <td><b>82.9%</b></td>
+    </tr>
+  </tbody>
+</table>
