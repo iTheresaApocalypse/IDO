@@ -224,3 +224,162 @@
   </tbody>
 </table>
 
+### Table 5
+
+<table border="1" cellspacing="0" cellpadding="5">
+  <thead>
+    <tr>
+      <th>Method</th>
+      <th>Model</th>
+      <th>Clothing1M</th>
+      <th>CIFAR100N</th>
+      <th>Webvisiom</th>
+      <th rowspan="5">Implementation Details</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>TURN</td>
+      <td align="center">Pre-trained ResNet 50</td>
+      <td>68.1%</td>
+      <td>67.5%</td>
+      <td>79.6%</td>
+      <td rowspan="4">The results of pre-trained models. <br>
+        Train for 100 epochs using SGD with a learning rate of 0.01. <br>
+        The learning rate is reduced by a factor of 10 at epochs 40 and 80, with a weight decay of 5e-4. <br>
+        Stage 1 lasts 5 epochs and stage 2 lasts 95 epochs.
+      </td>
+    </tr>
+    <tr>
+      <td>DivideMix</td>
+      <td align="center">Pre-trained ResNet 50</td>
+      <td>74.5%</td>
+      <td>74.1%</td>
+      <td>82.3%</td>
+    </tr>
+    <tr>
+      <td>DISC</td>
+      <td align="center">Pre-trained ResNet 50</td>
+      <td>73.7%</td>
+      <td>74.3%</td>
+      <td>81.5%</td>
+    </tr>
+    <tr>
+      <td>IDO</td>
+      <td align="center">Pre-trained ResNet 50</td>
+      <td><b>74.8%</b></td>
+      <td><b>74.8%</b></td>
+      <td><b>82.9%</b></td>
+    </tr>
+  </tbody>
+</table>
+
+
+
+### Table 6
+
+<table border="1" cellspacing="0" cellpadding="5">
+  <thead>
+    <tr>
+      <th>Model</th>
+      <th>Method</th>
+      <th>Clothing1M</th>
+      <th>Food101N</th>
+      <th>Webvisiom</th>
+      <th rowspan="5">Implementation Details</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td rowspan="2" align="center">Unpre-trained ResNet 50</td>
+      <td>Standard</td>
+      <td>65.3%</td>
+      <td>77.8%</td>
+      <td>70.7%</td>
+      <td rowspan="4" align="center">
+        The results of unpre-trained models and pre-trained models. <br>
+        Train for 100 epochs using SGD with a learning rate of 0.01. <br>
+        The learning rate is reduced by a factor of 10 at epochs 40 and 80, with a weight decay of 5e-4. <br>
+        For unpre-trained models, stage 1 lasts 30 epochs and stage 2 lasts 70 epochs.<br>
+        For pre-trained models, stage 1 lasts 5 epochs and stage 2 lasts 95 epochs.
+      </td>
+    </tr>
+    <tr>
+      <td>IDO</td>
+      <td><b>72.7%</b></td>
+      <td><b>85.4%</b></td>
+      <td><b>79.6%</b></td>
+    </tr>
+    <tr>
+      <td rowspan="2" align="center">Pre-trained ResNet 50</td>
+      <td>Standard</td>
+      <td>67.3%</td>
+      <td>81.6%</td>
+      <td>77.8%</td>
+    </tr>
+    <tr>
+      <td>IDO</td>
+      <td><b>74.8%</b></td>
+      <td><b>88.2%</b></td>
+      <td><b>82.9%</b></td>
+    </tr>
+  </tbody>
+</table>
+
+
+
+### Table 7
+
+<table border="1" cellspacing="0" cellpadding="5">
+  <thead>
+    <tr>
+      <th>Model</th>
+      <th>Method</th>
+      <th>Food101N</th>
+      <th rowspan="9">Implementation Details</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td rowspan="3" align="center">Unpre-trained ResNet 50</td>
+      <td>Standard</td>
+      <td>77.8%</td>
+      <td rowspan="8">The results of unpre-trained models and pre-trained models. <br>
+        Train for 100 epochs using SGD with a learning rate of 0.01. <br>
+        The learning rate is reduced by a factor of 10 at epochs 40 and 80, with a weight decay of 5e-4. <br>
+        For unpre-trained models, stage 1 lasts 30 epochs and stage 2 lasts 70 epochs.<br>
+        For pre-trained models, stage 1 lasts 5 epochs and stage 2 lasts 95 epochs.
+      </td>
+    </tr>
+    <tr>
+      <td>GJS</td>
+      <td>82.6%</td>
+    </tr>
+    <tr>
+      <td>IDO</td>
+      <td><b>85.4%</b></td>
+    </tr>
+    <tr>
+      <td rowspan="6" align="center">Pre-trained ResNet 50</td>
+      <td>Standard</td>
+      <td>81.6%</td>
+    </tr>
+    <tr>
+      <td>PLC</td>
+      <td>83.4%</td>
+    </tr>
+    <tr>
+      <td>ELR</td>
+      <td>84.2%</td>
+    </tr>
+    <tr>
+      <td>DISC</td>
+      <td>87.9%</td>
+    </tr>
+    <tr>
+      <td>IDO</td>
+      <td><b>88.2%</b></td>
+    </tr>
+  </tbody>
+</table>
+
