@@ -166,7 +166,7 @@
       <td>IDO</td>
       <td align="center">Pre-trained ResNet 50</td>
       <td><b>74.8%</b></td>
-      <td><b>74.8%</b></td>
+      <td><b>75.0%</b></td>
       <td><b>82.9%</b></td>
     </tr>
   </tbody>
