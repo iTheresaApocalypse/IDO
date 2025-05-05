@@ -79,9 +79,11 @@ class WELoss(torch.nn.Module):
 
         # Average y_pred_s and y_pred_w first
         y_pred_avg = (y_pred_s + y_pred_w) / 2
-
+        conf = torch.max(y_pred_avg, dim=1)[0]
+        conf = conf.unsqueeze(1)
+        
         # Calculate entropy of the averaged y_pred
-        entropy_avg = -torch.sum(y_pred_avg * torch.log(y_pred_avg), dim=1)
+        entropy_avg = -conf * torch.sum(y_pred_avg * torch.log(y_pred_avg), dim=1)
 
         # Calculate entropy_term
         entropy_term = (1 - prob_tensor) * entropy_avg
