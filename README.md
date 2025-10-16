@@ -1,4 +1,4 @@
-# [IDO: Handling Label Noise via Instance-Level Difficulty Modeling and Dynamic Optimization] Implementation
+# NeurIPS 2025 [IDO: Handling Label Noise via Instance-Level Difficulty Modeling and Dynamic Optimization] Implementation
 
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue)](https://www.python.org/)
@@ -86,36 +86,13 @@ sh sh/[cifar100.sh, tiny_imagenet.sh,realworld.sh]
 3. After finishing stage 2, the best accuracy will be stored into './stage2'.
 4. The training log files will be stored into './checkpoint'.
 
-## 📊 Results
-
-### CIFAR100
-
-| Model    | Sym.20% | Sym.40% | Sym.60% | Asym.40% | Inst.40% |
-| -------- | ------- | ------- | ------- | -------- | -------- |
-| ResNet50 | 85.1%   | 83.8%   | 81.4%   | 78.2%    | 83.8%    |
-| ViT-B/16 | 92.7%   | 92.4%   | 91.5%   | 89.7%    | 92.3%    |
-
-### Tiny-ImageNet
-
-| Model    | Sym.20% | Sym.50% | Inst.40% |
-| -------- | ------- | ------- | -------- |
-| ResNet50 | 78.6%   | 75.4%   | 77.5%    |
-| ViT-B/16 | 91.3%   | 90.3%   | 90.4%    |
-
-### Real-world Dataset
-
-| Dataset  | CIFAR100N | Clothing1M | Webvision |
-| -------- | --------- | ---------- | --------- |
-| ResNet50 | 73.6%     | 72.6%      | 82.9%     |
-| ViT-B/16 | 81.4%     | 73.0%      | 86.0%     |
-
 ## 📜 Citation
 
 ```
 @inproceedings{IDO,
   title     = {Handling Label Noise via Instance-Level Difficulty Modeling and Dynamic Optimization},
   author    = {Zhang, Kuan and Chai, Chengliang and Xu, Jingzhe and Zhang, Chi and Han, Han and Yuan, Ye and Wang, Guoren and Cao Lei},
-  booktitle = {arXiv},
+  booktitle = {NeurIPS},
   year      = {2025}
 }
 ```
