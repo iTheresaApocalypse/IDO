@@ -89,11 +89,13 @@ sh sh/[cifar100.sh, tiny_imagenet.sh,realworld.sh]
 ## 📜 Citation
 
 ```
-@inproceedings{IDO,
-  title     = {Handling Label Noise via Instance-Level Difficulty Modeling and Dynamic Optimization},
-  author    = {Zhang, Kuan and Chai, Chengliang and Xu, Jingzhe and Zhang, Chi and Han, Han and Yuan, Ye and Wang, Guoren and Cao Lei},
-  booktitle = {NeurIPS},
-  year      = {2025}
+@article{zhang2026handling,
+  title={Handling label noise via instance-level difficulty modeling and dynamic optimization},
+  author={Zhang, Kuan and Chai, Chengliang and Xu, Jingzhe and Zhang, Chi and Han, Han and Yuan, Ye and Wang, Guoren and Cao, Lei},
+  journal={Advances in Neural Information Processing Systems},
+  volume={38},
+  pages={46667--46696},
+  year={2026}
 }
 ```
 
